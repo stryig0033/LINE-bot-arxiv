@@ -6,10 +6,10 @@ from linebot.exceptions import LineBotApiError
 from linebot.models import TextSendMessage
 
 #API設定
-openai.api_key = "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"
-line_bot_api = LineBotApi('zUjRTa77dmDJ9naK8Db/woL9o01pbq6PFSjT/v49t2ey5ektFzVmAr18wKE0Zgh511DCTVTukdH4O7gdPQnTo4t+9Vpnb7OQrDYYasWM/yEUQJ7mlkQeSg9xFe1JWbZxEBR8c8ZTvqXKhEJm2yLtFAdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('26127998fa2b66863d7803acb65e994c')
-receiver = 'U47e09a8ce03383456f42022cc117f55d'
+openai.api_key = 'openAIのAPIキー'
+line_bot_api = LineBotApi('LINEアクセストークン')
+handler = WebhookHandler('LINEチャネルシークレット')
+receiver = 'LINEアカウントのID(dev tool サイトから確認)'
 
 #得たい論文のクエリ
 query ='ti:%22 bayesian modeling %22'
