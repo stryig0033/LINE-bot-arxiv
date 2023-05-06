@@ -1,5 +1,5 @@
 # LINE-bot-arxiv
-This code enables us to get summarized information about latest papers as to your preferred topic via LINE.
+This code enables us to get summarized information about latest papers as to your preferred topic from arXiv via LINE using GPT.
 
 The code sets bayesian modeling as a default topic.
 
